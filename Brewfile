@@ -1,6 +1,7 @@
 brew "coreutils"
 brew "htop"
 brew "stow"
+brew "tmux"
 
 brew "git"
 brew "git-lfs"
