@@ -21,6 +21,8 @@ brew "pnpm"
 
 brew "go@1.16"
 
+brew "rustup-init"
+
 tap "homebrew/cask"
 cask_args appdir: "~/Applications", require_sha: true
 
