@@ -23,6 +23,11 @@ brew "go@1.16"
 
 brew "rustup-init"
 
+# ghcup manually installed but needs LLVM
+# also requires PATH update
+brew "llvm"
+
 tap "homebrew/cask"
 cask_args appdir: "~/Applications", require_sha: true
 
+cask "discord"
